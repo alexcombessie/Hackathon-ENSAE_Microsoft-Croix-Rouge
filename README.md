@@ -25,7 +25,7 @@ These joint efforts had a common goal: to build a regression model explaining th
 
  Thanks to all this data, we were able to run several regression models: Ordinary Least Square (OLS), Ridge regression, and Random Forest (to qualify each feature importance). We also tried Leave-One-Out cross-validation for the Ridge. Overall the models' fits were very good (R2 of 0.48 for the OLS regression, 0.57 for the Ridge). This is not surprising as factors like poverty and unemployment are strongly linked with the need for social help.
 
- ## Results
+## Results
 We used our OLS regression model as a way to "predict" the theoretical need for social help in each department. We assumed that any negative gap between predicted and observed values meant that the department did not have enough Croix-Rouge centers. We plotted these gap values on an interactive map of France using Microsoft Excel PowerMap. We also established a "Top 5 List" of priority departments by sorting the highest gaps in terms of both number of centers and beneficiaries.
 
 The jury was quite happy with our results and final presentation, and we were very honored to receive the first prize in our competition category. To go further, we would have liked to pursue the following tracks:
